@@ -4,7 +4,7 @@ libraries = []
 books = []
 
 #reading general info
-file = open("b_read_on.txt", "r")
+file = open("test_cases/b_read_on.txt", "r")
 
 numOfBooks, numOfLibrary, scanningDays = file.readline().split()
 
