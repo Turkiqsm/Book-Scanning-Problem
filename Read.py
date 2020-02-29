@@ -1,4 +1,6 @@
-from Objects import Book, Library
+from Book import Book
+from Library import Library
+from main import optimize
 
 libraries = []
 books = []
@@ -28,3 +30,5 @@ for i in range(int(numOfLibrary)):
 
     libraries.append(lib)
     lib.toString()
+
+optimize(libraries, scanningDays)
